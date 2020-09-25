@@ -1,21 +1,25 @@
 # Hornets Nest
 
-The spreadsheet you'll be working with in this activity is infested with hornets! In place of numerical data, when you open your file you'll be greeted by cells filled with the words "Hornet", "Bug", or "Bee." Instead of manually dealing with the critters, you'll use VBA to do the work for you.
+Use VBA to replace every instance of "Hornets" in the 6x7 grid with "Bugs" or "Bees" based off of the available amound of these.
+Create buttons for the following: 
+  * Randomly reset the grid with Hornets, Bugs, and Bees. Randomly reset the available number of Bugs and Bees.
+  * Reset the grid with the orignal layout of Hornets, Bugs, and Bees. Reset the available number of Bugs and Bees to the original amount.
+  * Randomly reset the available number of Bugs and Bees only.
+  * Run the Removal Script.
 
 ## Instructions
 
 * Create a VBA script to handle the growing hornet infestation in your spreadsheet.
 
-* There are three parts to this problem:
+* Use nested for loops to find all of the Hornets in the "nest" and replace them with Bugs or Bees. For each instance of Hornets, if there are both bugs and bees remaining, randomly place bugs or bees with equal probability and adjust the amount of that insect remaining.
 
-  * Part I: Count the number of hornets found and display the number to your user in the form of a message box.
+* If there is only 1 type of insect remaining, use that kind.
 
-  * Part II: Modify the script such that it changes the word "Hornets" to "Bugs".
+* If there are no insects remaining, stop the loop and show a message saying, "Oh no! We still have hornets."
 
-  * Part III: Modify the script a third time, this time keeping in mind that you have a limited number of bugs and bees. Use the full set of bugs and bees you have available to replace the hornets. If you run out of bugs or bees provide the user with the message: "Oh no! We still have hornets..."
+* Create buttons for the following: 
+  * Randomly reset the grid with Hornets, Bugs, and Bees. Randomly reset the available number of Bugs and Bees.
+  * Reset the grid with the orignal layout of Hornets, Bugs, and Bees. Reset the available number of Bugs and Bees to the original amount.
+  * Randomly reset the available number of Bugs and Bees only.
+  * Run the Removal Script.
 
-## Hints
-
-* You may want to create a backup of your spreadsheet as your macro will write over the contents.
-
-* Take lots of deep breaths!
